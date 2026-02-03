@@ -28,14 +28,11 @@ To get the Player class directly in GameController, I use the code player play =
 if (Instance != null && Instance != this)
 
 {
-
     Destroy(this);
 
     return;
-
 }
 
-Instance = this;
 
 ## Open-Source Assets
 If you added any other assets, list them here!
