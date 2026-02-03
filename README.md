@@ -26,10 +26,15 @@ play.jumping += JumpHandle;
 To get the Player class directly in GameController, I use the code player play = Locator.Instance.playerss; relate with the Locator script. Additionally, the following code in the Locator class ensures a single instance (Singleton pattern):
 
 if (Instance != null && Instance != this)
+
 {
+
     Destroy(this);
+
     return;
+
 }
+
 Instance = this;
 
 ## Open-Source Assets
